@@ -40,7 +40,6 @@ void setup(){
   pinMode(SENSOR1, INPUT);
   pinMode(SENSOR2, INPUT);
   
-  Serial.begin(9600);
 }
 
 void playAnimation(byte anmType){
